@@ -69,6 +69,13 @@ These outdated versions may contain multiple unpatched vulnerabilities.
 
 Overall, the system demonstrates a weak security posture due to exposed services, lack of access control, and outdated software.
 
+### Key Risks
+
+- MySQL exposed without authentication
+- Outdated FTP service (ProFTPD 1.3.5)
+- SMB exposed on port 445
+- Multiple outdated services increasing attack surface
+
 ### Defensive Perspective
 
 From a Blue Team perspective, the following actions are recommended:
@@ -84,11 +91,10 @@ From a Blue Team perspective, the following actions are recommended:
 
 #### Screenshots
 
-- `01-target_ip.png`
-- `02-connectivity_test.png`
-- `03-basic_nmap_scan.png`
-- `04-service_version_scan.png`
-- `05-scans.png`
+- [Target IP](./01-target_ip.png)
+- [Connectivity Test](./02-connectivity_test.png)
+- [Basic Nmap Scan](./03-basic_nmap_scan.png)
+- [Service Version Scan](./04-service_version_scan.png)
 
 #### Scan Files
 
@@ -182,6 +188,13 @@ Essas versões antigas podem conter múltiplas vulnerabilidades não corrigidas.
 
 No geral, o sistema apresenta uma postura de segurança fraca devido à exposição de serviços, ausência de controle de acesso e uso de software desatualizado.
 
+### Riscos Principais
+
+- MySQL exposto sem autenticação
+- Serviço FTP desatualizado (ProFTPD 1.3.5)
+- SMB exposto na porta 445
+- Múltiplos serviços desatualizados aumentando a superfície de ataque
+
 ### Perspectiva Defensiva
 
 Do ponto de vista de Blue Team, as seguintes ações são recomendadas:
@@ -197,11 +210,10 @@ Do ponto de vista de Blue Team, as seguintes ações são recomendadas:
 
 #### Screenshots
 
-- `01-target_ip.png`
-- `02-connectivity_test.png`
-- `03-basic_nmap_scan.png`
-- `04-service_version_scan.png`
-- `05-scans.png`
+- [IP do Alvo](./01-target_ip.png)
+- [Teste de Conectividade](./02-connectivity_test.png)
+- [Scan Básico do Nmap](./03-basic_nmap_scan.png)
+- [Scan de Versão de Serviços](./04-service_version_scan.png)
 
 #### Arquivos de Scan
 
