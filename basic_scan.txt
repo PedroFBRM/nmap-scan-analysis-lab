@@ -1,0 +1,18 @@
+# Nmap 7.95 scan initiated Mon May  4 20:52:00 2026 as: /usr/lib/nmap/nmap --privileged -oN basic_scan.txt 10.0.2.4
+Nmap scan report for 10.0.2.4
+Host is up (0.00042s latency).
+Not shown: 991 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+21/tcp   open   ftp
+22/tcp   open   ssh
+80/tcp   open   http
+445/tcp  open   microsoft-ds
+631/tcp  open   ipp
+3000/tcp closed ppp
+3306/tcp open   mysql
+8080/tcp open   http-proxy
+8181/tcp closed intermapper
+MAC Address: 08:00:27:7A:91:0B (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+
+# Nmap done at Mon May  4 20:52:05 2026 -- 1 IP address (1 host up) scanned in 5.26 seconds
+
